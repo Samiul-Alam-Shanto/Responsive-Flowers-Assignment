@@ -51,6 +51,13 @@ h4 {
     color: #E95A08;
 }
 
+.btn-primary {
+    background-color: #E95A08;
+    font-weight: 600;
+    color: white;
+    padding: 20px 0px;
+    border: none;
+}
 
 /* Header Styles */
 .header {
@@ -107,16 +114,57 @@ h4 {
     color: black;
 }
 
-
-
-
 .banner-right {
     flex: 1;
 }
 
+/* plant section styles */
 
+.plants {
+    max-width: 1140px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+    padding: 0px 10px;
+    margin-bottom: 210px;
+}
 
+.plant-title {
+    font-size: 3.1rem;
+}
 
+.plant-subtitle {
+    width: 70%;
+}
+
+.plant-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px 20px;
+}
+
+.pcard {
+    flex-direction: column;
+    gap: 20px;
+}
+
+.pcard img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.pcard-name {
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.pcard-price {
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
 
 
 
@@ -145,6 +193,12 @@ h4 {
         width: 100%;
         padding: 0px 10px;
     }
+
+    .plant-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
 
 
 }
