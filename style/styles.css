@@ -308,16 +308,40 @@ h4 {
 }
 
 
+/* join section styles */
 
+.join {
+    background-image: url(../assets/news-letter-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12rem 0px;
+    margin-bottom: 100px;
+}
 
+.join>h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 1.5rem;
+}
 
+.email-field {
+    width: 650px;
+}
 
+.join-cta button {
+    padding: 15px 50px;
+    font-size: 1rem;
+}
 
-
-
-
-
-
+.email-field {
+    padding-left: 10px;
+    letter-spacing: 1px;
+    outline: none;
+}
 
 
 
@@ -391,6 +415,16 @@ h4 {
     .dcard-link {
         font-size: 1.5rem;
     }
+
+    .email-field {
+        width: auto;
+    }
+
+    .join-cta button {
+        padding: 15px 25px;
+    }
+
+
 
 
 }
